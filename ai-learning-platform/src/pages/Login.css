@@ -1,0 +1,158 @@
+/* General container for the whole login */
+.login-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, #d92e9f, #7b2edb); /* Updated gradient colors */
+  }
+  
+  /* Styling for the form side */
+  .login-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Styling for inputs */
+  .login-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .login-error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for the login button */
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #ff6b6b, #f94e9e); /* Updated gradient colors */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #ff5a5a, #f32c89); /* Updated hover gradient */
+  }
+  
+  /* Social buttons */
+  .social-login {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-button {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+  }
+  
+  /* Styling for the icons */
+  .icon {
+    margin-right: 10px;
+  }
+  
+  /* Twitter button styling */
+  .social-button.twitter {
+    background: #1da1f2;
+    color: white;
+  }
+  
+  .social-button.twitter:hover {
+    background: #0d95e8;
+  }
+  
+  /* Facebook button styling */
+  .social-button.facebook {
+    background: #1877f2;
+    color: white;
+  }
+  
+  .social-button.facebook:hover {
+    background: #165adb;
+  }
+  
+  /* Styling for the left-side banner */
+  .login-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    background: linear-gradient(135deg, #d92e9f, #7b2edb); /* Updated gradient */
+  }
+  
+  .login-side h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-side p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .login-logo {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+/* Sign Up Section */
+.signup-section {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .signup-button {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b6b, #f94e9e); /* Matching gradient */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background: linear-gradient(135deg, #ff5a5a, #f32c89);
+  }
+/* Specific styling for the Sign Up button */
+.login-button.signup {
+    background: linear-gradient(135deg, #4CAF50, #66BB6A); /* Green gradient for sign-up */
+  }
+  
+  .login-button.signup:hover {
+    background: linear-gradient(135deg, #388E3C, #43A047); /* Darker green on hover */
+  }
+      
